@@ -1,0 +1,25 @@
+{
+    "name": "hallo/api-rate-limiter",
+    "description": "A Laravel package to track API usage, apply rate limits, and monitor endpoints.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hallo",
+            "email": "info@hallorzgar.dev"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Hallo\\ApiRateLimiter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hallo\\ApiRateLimiter\\ApiRateLimiterServiceProvider"
+            ]
+        }
+    }
+}
